@@ -10,5 +10,9 @@
  (name opam-test)
  (synopsis "OPAM plugin to run package tests")
  (depends
+  (cmdliner (>= 1.0.4))
   (ocaml (>= 4.08.0))
-  (cmdliner (>= 1.0.4))))
+  (opam-core (>= 2.0.0))
+  (opam-format (>= 2.0.0))
+  (opam-repository (>= 2.0.0))
+  (opam-state (>= 2.0.0))))

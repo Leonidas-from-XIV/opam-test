@@ -1,4 +1,7 @@
-let run () = print_endline "I ran"
+
+let run () =
+  Init.init_opam ();
+  print_endline "I ran"
 
 let main () =
   let main = Cmdliner.Term.(const run $ const ()) in
