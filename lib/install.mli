@@ -1,0 +1,1 @@
+val install : string -> unit

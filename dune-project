@@ -12,6 +12,7 @@
  (depends
   (cmdliner (>= 1.0.4))
   (ocaml (>= 4.08.0))
+  (opam-client (>= 2.0.0))
   (opam-core (>= 2.0.0))
   (opam-format (>= 2.0.0))
   (opam-repository (>= 2.0.0))

@@ -1,3 +1,9 @@
 (library
  (name opam_test)
- (libraries cmdliner opam-core opam-state opam-format opam-repository))
+ (libraries
+  cmdliner
+  opam-core
+  opam-state
+  opam-format
+  opam-repository
+  opam-client))

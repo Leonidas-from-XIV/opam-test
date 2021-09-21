@@ -1,4 +1,3 @@
-
 let run () =
   Init.init_opam ();
   print_endline "I ran"
