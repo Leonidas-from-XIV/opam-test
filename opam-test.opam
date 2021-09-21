@@ -8,10 +8,11 @@ bug-reports: "https://github.com/Leonidas-from-XIV/opam-test/issues"
 depends: [
   "dune" {>= "2.9"}
   "ocaml" {>= "4.08.0"}
+  "cmdliner" {>= "1.0.4"}
   "odoc" {with-doc}
 ]
 build: [
-  ["dune" "subst" "--root" "."] {dev}
+  ["dune" "subst"] {dev}
   [
     "dune"
     "build"
@@ -19,8 +20,7 @@ build: [
     name
     "-j"
     jobs
-    "--promote-install-files"
-    "false"
+    "--promote-install-files=false"
     "@install"
     "@runtest" {with-test}
     "@doc" {with-doc}

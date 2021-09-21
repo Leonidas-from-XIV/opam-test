@@ -1,3 +1,4 @@
 (executable
  (name opam_test)
- (public_name opam-test))
+ (public_name opam-test)
+ (libraries opam_test))

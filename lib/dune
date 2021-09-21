@@ -1,0 +1,3 @@
+(library
+ (name opam_test)
+ (libraries cmdliner))
